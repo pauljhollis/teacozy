@@ -65,7 +65,7 @@ nav a {
   margin: auto;
 }
 
-.month {
+.monthly {
   width: 1000px;
   height: 700px;
   padding-top: 70px;
@@ -81,7 +81,7 @@ nav a {
 .items img {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .items span {
@@ -94,4 +94,28 @@ h2, h3, h4 {
   padding: 10px;
   opacity: 0.9;
   font-weight: bold;
+}
+
+.locations {
+  height: 500px;
+  margin: auto;
+  background-image: url("../images/img-locations-background.jpg");
+  opacity: 0.9;
+  padding-top: 60px;
+}
+
+.locations h2 {
+  padding-bottom: 15px;
+}
+
+.locBox {
+  width: 300px;
+  background-color: black;
+  justify-content: center;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+.locBox p {
+  margin: 30px;
 }
